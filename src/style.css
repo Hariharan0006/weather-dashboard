@@ -1,0 +1,46 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== ROOT SETTINGS ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== BODY BACKGROUND (ADVANCED GRADIENT) ===== */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #aabaff, #436cf2);
+ background-attachment: fixed;
+}
+
+/* ===== APP CONTAINER ===== */
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ===== OPTIONAL: SMOOTH CARD LOOK ===== */
+.card {
+  border-radius: 15px;
+}
+
+/* ===== OPTIONAL: SMOOTH BUTTON TRANSITION ===== */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
