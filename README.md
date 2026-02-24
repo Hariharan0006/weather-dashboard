@@ -1,5 +1,8 @@
 # 🌤 Weather Dashboard App
 
+![Home Page](sample_1.png)
+![Forecast Section](sample_2.png)
+
 A modern Weather Dashboard built using Vue 3, Pinia, and Bootstrap.
 This app displays current weather information and a 5-day forecast.
 
